@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DUSTER</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <a  href="index.html"><img src="./signuppage_img/logoweb.png" style="width: 200px;" class ="navlogo" alt="" /></a>
+</head>
+<body>
+    <!-- <a  href=".html"><img src="loginpage_img/banner.png" class ="navlogo" alt="" /></a> -->
+    <div class="login-container">
+        <h1>Log in</h1>
+        <form action="login.php" method="POST">
+            <div class="up">   
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required placeholder="Shubham" style="font-size: 14px;">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="8-16 password" style="font-size: 14px;">
+                <br>
+                </div>
+                <button type="submit">Login</button>
+         
+        </form>
+        <p>Don't have an account? <a href="./index.html"> <span>Sign Up</span></a></p>
+        <p>-------------OR---------------</p>
+        <div>
+            <h3 class="google"><img class="googleimg" src="loginpage_img/google.png" alt=""> Continue with Google</h3>
+            <h3 class="outlook"><img class="outlookimg" src="loginpage_img/outlook.png" alt=""> Continue with Outlook</h3>
+        </div>
+    </div>
+</body>
+</html>
